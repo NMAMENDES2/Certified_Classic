@@ -1,0 +1,52 @@
+# Go binaries
+/out/
+
+# Build artifacts
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Vendor directory (if using Go modules, vendor isn't needed)
+vendor/
+
+# Dependency directories (if you're not using Go modules)
+Gopkg.lock
+Gopkg.toml
+
+# IDE and Editor files
+.idea/
+.vscode/
+*.swp
+*~
+*.sublime-workspace
+*.sublime-project
+
+# Go workspace files
+go.work
+go.work.sum
+
+# Test, coverage, and profiling files
+*.test
+*.out
+*.prof
+
+# PostgreSQL or other database-related files (in case you use local dev databases)
+*.sql
+*.sqlite
+
+# Docker
+.docker/
+*.dockerfile
+
+# Logs
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Environment variable files
+.env
+
