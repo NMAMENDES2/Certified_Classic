@@ -1,1 +1,3 @@
-# Certified_Classic
+# Certified Classic
+
+Album rating app
